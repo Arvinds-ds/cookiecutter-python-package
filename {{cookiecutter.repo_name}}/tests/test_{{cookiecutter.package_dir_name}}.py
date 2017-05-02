@@ -8,7 +8,7 @@ test_{{ cookiecutter.package_dir_name }}
 Tests for `{{ cookiecutter.package_dir_name }}` module.
 """
 
-import unittest
+import pytest
 
 import {{ cookiecutter.package_dir_name }}
 
